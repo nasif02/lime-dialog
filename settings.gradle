@@ -1,0 +1,2 @@
+include ':app', ':limedialog'
+rootProject.name='lime-dialog-lib'

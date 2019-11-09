@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">limedialog</string>
+    <string name="dummy_dialog_title">HI</string>
+    <string name="dummy_dialog_text">How are you?</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+</resources>
