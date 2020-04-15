@@ -20,7 +20,7 @@ import androidx.fragment.app.FragmentManager;
  * Created  : 2019-10-19
  * Updated  :
  * Author   : xplo
- * Desc     : com.xplo.lab.sections.ui
+ * Desc     :
  * Comment  :
  */
 public class LimeDialog extends DialogFragment {
