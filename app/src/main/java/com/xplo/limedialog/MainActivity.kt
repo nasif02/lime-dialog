@@ -2,8 +2,8 @@ package com.xplo.limedialog
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import com.xlib.limedialog.LimeDialog
-import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        btTest.setOnClickListener {
+        findViewById<Button>(R.id.btTest).setOnClickListener {
 
             LimeDialog.Builder(supportFragmentManager)
                 .setLayoutId(R.layout.custom_bongo_dialog)
